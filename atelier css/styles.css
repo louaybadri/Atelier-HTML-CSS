@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+
+}
+
+.top {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+
+
+}
+
+.image_top {
+    margin: auto;
+    height: 447px;
+    background: url("source/atelier css/img/logo.png") no-repeat left top,
+    url("source/atelier css/img/flash_img.png") no-repeat right top;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: aliceblue;
+    height: 70px;
+    background: #8d2f28;
+    width: 20%;
+}
+
+li:hover {
+
+    background: url("source/atelier css/img/rings.png") no-repeat right bottom;
+}
+
+.redtext {
+    color: #8e0d05;
+    font-size: 1.5em;
+}
+
+.cont {
+    color: #8e0d05;
+}
+
+.botContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    background: url("source/atelier css/img/image6.png") no-repeat right bottom;
+}
+
+.halfwidth {
+   grid-column: span 2;
+}
+
+.solo {
+    padding-top: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
